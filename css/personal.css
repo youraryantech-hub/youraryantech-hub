@@ -1,0 +1,218 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+#nav
+{
+    width: 100%;
+    height: 10vh;
+    padding-top: 10px;
+    background-color: black;
+}
+#nav ul
+{
+    padding-top: 10px;
+}
+#nav ul li
+{
+    display:inline;
+    text-decoration: none;
+    font-family: 'Instrument Serif', serif;
+    padding-left: 50px ;
+    font-size: 18px;
+    color: white;
+}
+#nav a:hover
+{
+    color: orangered;
+}
+#nav a
+{
+    text-decoration: none;
+    color: white;
+}
+#main
+{
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../image/pers.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#brand
+{
+         font-size: 60px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-style: italic;
+         font-weight: bold;
+         color: white;
+         text-align: center;
+         position: absolute;
+         top: 45%;
+         left: 30%;
+         transform: translate(-50%, -50%);
+        
+}
+#b1
+{
+         font-size: 30px;
+         font-family:'Times New Roman', Times, serif;
+         color: white;
+         text-align: center;
+         position: absolute;
+         top: 50%;
+         left: 21%;
+         transform: translate(-50%, -50%);
+}
+#space
+{
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+}
+/* Hero */
+.hero {
+    text-align: center;
+    padding-top:20px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #ff3c3c;
+}
+
+/* Trainers */
+.trainers {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background: #ff3c3c;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover
+{
+    background: white;
+    border: 2px solid black;
+    color: #ff3c3c;
+}
+
+/* Features */
+.features {
+    text-align: center;
+    padding: 40px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px 0;
+}
+
+/* Top Alert */
+.top-alert {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff3c3c;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+ #pre-close
+ {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    border-top: 5px solid orangered;
+    
+ }
+ #address
+ {
+      width: 30%;
+      height: 60vh ;
+      padding-left: 50px;
+      float: left;
+    }
+    #sitemap
+    {
+         width: 15%;
+         height: 60vh;
+         float: left;
+         margin-left: 202px;
+       
+    
+    }
+    #sitemap a
+    {
+        text-decoration: none;
+        color: black;
+    }  
+    #sitemap a:hover
+    {
+        text-decoration: none;
+        color: orangered;
+    }  
+    #icon
+    {
+        width: 20%;
+        height: 60vh;
+        margin-left: 80px;
+        float: left;
+    }
+    #icon a
+   {
+    text-decoration: none;
+    color: black;
+   }
+   #icon a:hover
+   {
+    text-decoration: none;
+    color: orangered;
+   }
+    #close
+{
+    width: 100%;
+    height: 8vh;
+    color: white;
+    font-size: 20px;
+}
+
